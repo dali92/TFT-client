@@ -42,7 +42,7 @@ public class Home extends JFrame {
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
 		
-		JMenu mnCompetetion = new JMenu("Competetion");
+		JMenu mnCompetetion = new JMenu("Management Competetion");
 		menuBar.add(mnCompetetion);
 		
 		JMenuItem mntmAddCompetetion = new JMenuItem("Add Competetion");
@@ -54,7 +54,7 @@ public class Home extends JFrame {
 		JMenuItem mntmDeleteCompetetion = new JMenuItem("Delete Competetion");
 		mnCompetetion.add(mntmDeleteCompetetion);
 		
-		JMenu mnDoctor = new JMenu("Doctor");
+		JMenu mnDoctor = new JMenu(" Mnagement Doctor");
 		menuBar.add(mnDoctor);
 		
 		JMenuItem mntmAddDoctor = new JMenuItem("Add Doctor");
@@ -66,7 +66,7 @@ public class Home extends JFrame {
 		JMenuItem mntmDeleteDoctor = new JMenuItem("Delete Doctor");
 		mnDoctor.add(mntmDeleteDoctor);
 		
-		JMenu mnPlayer = new JMenu("Player");
+		JMenu mnPlayer = new JMenu("Management Player");
 		menuBar.add(mnPlayer);
 		
 		JMenuItem mntmAddPlayer = new JMenuItem("Add Player");
@@ -83,7 +83,7 @@ public class Home extends JFrame {
 		setContentPane(contentPane);
 		
 		ScrollPane scrollPane = new ScrollPane();
-		contentPane.add(scrollPane, BorderLayout.CENTER);
+		contentPane.add(scrollPane, BorderLayout.NORTH);
 	}
 
 }
